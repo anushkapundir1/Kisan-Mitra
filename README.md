@@ -11,22 +11,32 @@ and common agricultural queries.
 
 
 ## Key Features
-- Simple and farmer-friendly input flow
-- Rule-based agricultural guidance
-- AI-assisted response generation
-- Designed for real-world rural use cases
+- Upload and analyze crop and soil images
+- AI-based disease detection
+- Fertilizer and crop-care recommendations like temperature, climate, soil conditions
+- Simple and farmer-friendly web interface
 
+---
 
 ## Tech Stack
 - Python
-- AI / LLM APIs
-- Rule-based logic
+- Django
+- Gemini Vision API
+- HTML, CSS
+
+---
+
+## How It Works
+1. User uploads crop or soil images
+2. Images are sent to the Gemini Vision API
+3. AI analyzes visual patterns for disease indicators
+4. Results are displayed in a simple web interface
 
 
 ## Learning Outcomes
-- Designing AI systems for non-technical users
-- Combining rule-based logic with AI assistance
-- Structuring domain-specific AI applications
+- Integrating computer vision APIs into web applications
+- Building AI-driven solutions for agriculture
+- Designing applications for non-technical users
 - Understanding real-world problem constraints
 
 
